@@ -1,0 +1,9 @@
+function foo(x: integer, y: boolean): integer {
+    var z: string;
+    if (x < 10 && y == true) {
+        z = "hello";
+    } else {
+        z = "world";
+    }
+    return z;
+}
