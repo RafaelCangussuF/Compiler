@@ -39,6 +39,6 @@ LV  -> LV '.' ID | LV '[' E ']' | ID
 ID  -> [a-zA-Z] [a-zA-Z0-9]*
 TRUE  -> 'true'
 FALSE -> 'false'
-CHR   -> '\'' any '\''
+CHR   -> ''' any '''
 STR   -> '"' any* '"'
 NUM   -> [0-9]+
